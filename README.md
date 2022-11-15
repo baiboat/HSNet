@@ -57,3 +57,19 @@ If you want to improve the usability or any piece of advice, please feel free to
 
 ## 5. License
 The source code is free for research and education use only. Any comercial use should get formal permission first.
+
+## 6. BibTeX
+
+If you find our work and this repository useful. Please consider giving a star and citation;.
+
+```bibtex
+@article{zhang2022hsnet,
+  title={HSNet: A hybrid semantic network for polyp segmentation},
+  author={Zhang, Wenchao and Fu, Chong and Zheng, Yu and Zhang, Fangyuan and Zhao, Yanli and Sham, Chiu-Wing},
+  journal={Computers in Biology and Medicine},
+  volume={150},
+  pages={106173},
+  year={2022},
+  publisher={Elsevier}
+}
+```
