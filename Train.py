@@ -216,12 +216,12 @@ if __name__ == '__main__':
 
     print("#" * 20, "Start Training", "#" * 20)
 
-    # for epoch in range(1, opt.epoch):
-    #     adjust_lr(optimizer, opt.lr, epoch, 0.1, 200)
-    #     train(train_loader, model, optimizer, epoch, opt.test_path)
     for epoch in range(1, opt.epoch):
-        if epoch in [15, 30]:
-            adjust_lr(optimizer, 0.5)
-        train(train_loader, model, optimizer, epoch, opt.test_path)
+         adjust_lr(optimizer, opt.lr, epoch, 0.1, 200)
+         train(train_loader, model, optimizer, epoch, opt.test_path)
+    #for epoch in range(1, opt.epoch):
+    #    if epoch in [15, 30]:
+    #        adjust_lr(optimizer, 0.5)
+    #    train(train_loader, model, optimizer, epoch, opt.test_path)
     # plot the eval.png in the training stage
     # plot_train(dict_plot, name)
