@@ -10,7 +10,7 @@ import cv2
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--testsize', type=int, default=352, help='testing size')
-    parser.add_argument('--pth_path', type=str, default='./model_pth/HSNet/85PolypPVT.pth')
+    parser.add_argument('--pth_path', type=str, default='./model_pth/HSNet.pth')
     opt = parser.parse_args()
     model = HSNet()
     model.load_state_dict(torch.load(opt.pth_path))
