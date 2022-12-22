@@ -174,7 +174,7 @@ def evaluate(pred_path, gt_path, verbose = True):
 if __name__ == "__main__":
     # args = _args()
     # opt = load_config(args.config)
-    pred_root = "/home/zwc/Documents/Polyp-PVT/result_map/PolypPVT"
-    gt_root = "/home/zwc/Documents/Polyp-PVT/dataset/TestDataset/"
+    pred_root = "./Polyp-PVT/result_map/PolypPVT"
+    gt_root = "./Polyp-PVT/dataset/TestDataset/"
     evaluate(pred_root, gt_root)
 
