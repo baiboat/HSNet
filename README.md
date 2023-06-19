@@ -1,8 +1,7 @@
 # HSNet
 
-by Wenchao Zhanga, Chong Fu, Yu Zheng, Fangyuan Zhang, Yanli Zhao, Chiu-Wing Shamg.
-
-This repo is the official implementation of (HSNet: A Hybrid Semantic Network for Polyp Segmentation). 
+The code for the paper entitled "HSNet: A Hybrid Semantic Network for Polyp Segmentation."
+By Wenchao Zhang, Chong Fu, Yu Zheng, Fangyuan Zhang, Yanli Zhao, and Chiu-Wing Shamg.
 
 
 ## 1. Introduction
