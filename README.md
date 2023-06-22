@@ -1,4 +1,4 @@
-# HSNet: A Hybrid Semantic Network for Polyp Segmentation
+## HSNet: A Hybrid Semantic Network for Polyp Segmentation
 
 We investigate a hybrid semantic network (HSNet) that adopts both the advantages of transformer and convolutional neural networks (CNN), aiming to improve polyp segmentation. The HSNet contains a cross-semantic attention module (CSA), a hybrid semantic complementary module (HSC), and a multi-scale prediction module (MSP). 
 
