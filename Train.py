@@ -153,7 +153,7 @@ if __name__ == '__main__':
                         default=100, help='epoch number')
 
     parser.add_argument('--lr', type=float,
-                        default=1e-4, help='learning rate')
+                        default=5*1e-5, help='learning rate')
 
     parser.add_argument('--optimizer', type=str,
                         default='AdamW', help='choosing optimizer AdamW or SGD')
